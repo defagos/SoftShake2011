@@ -8,6 +8,7 @@
 
 @interface iShopping_goodAppDelegate : NSObject <UIApplicationDelegate> {
 @private
+    HLSStackController *m_stackController;
     UIWindow *m_window;
 }
 
