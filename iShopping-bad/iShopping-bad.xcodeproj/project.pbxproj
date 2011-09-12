@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FEDD638141DC70300D59BFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEDD637141DC70300D59BFC /* UIKit.framework */; };
+		6FEDD63A141DC70300D59BFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEDD639141DC70300D59BFC /* Foundation.framework */; };
+		6FEDD63C141DC70300D59BFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEDD63B141DC70300D59BFC /* CoreGraphics.framework */; };
+		6FEDD65A141DC7E400D59BFC /* iShopping_badAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDD658141DC7E400D59BFC /* iShopping_badAppDelegate.m */; };
+		6FEDD65B141DC7E400D59BFC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FEDD659141DC7E400D59BFC /* MainWindow.xib */; };
+		6FEDD660141DC7EF00D59BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDD65E141DC7EF00D59BFC /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6FEDD633141DC70300D59BFC /* iShopping-bad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iShopping-bad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FEDD637141DC70300D59BFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6FEDD639141DC70300D59BFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6FEDD63B141DC70300D59BFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6FEDD657141DC7E400D59BFC /* iShopping_badAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iShopping_badAppDelegate.h; sourceTree = "<group>"; };
+		6FEDD658141DC7E400D59BFC /* iShopping_badAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iShopping_badAppDelegate.m; sourceTree = "<group>"; };
+		6FEDD659141DC7E400D59BFC /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		6FEDD65C141DC7EF00D59BFC /* iShopping-bad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iShopping-bad-Info.plist"; sourceTree = "<group>"; };
+		6FEDD65D141DC7EF00D59BFC /* iShopping-bad-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iShopping-bad-Prefix.pch"; sourceTree = "<group>"; };
+		6FEDD65E141DC7EF00D59BFC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FEDD630141DC70300D59BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEDD638141DC70300D59BFC /* UIKit.framework in Frameworks */,
+				6FEDD63A141DC70300D59BFC /* Foundation.framework in Frameworks */,
+				6FEDD63C141DC70300D59BFC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FEDD628141DC70200D59BFC = {
+			isa = PBXGroup;
+			children = (
+				6FEDD655141DC7E400D59BFC /* Sources */,
+				6FEDD652141DC72A00D59BFC /* Resources */,
+				6FEDD653141DC73400D59BFC /* Other sources */,
+				6FEDD636141DC70300D59BFC /* Frameworks */,
+				6FEDD634141DC70300D59BFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FEDD634141DC70300D59BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FEDD633141DC70300D59BFC /* iShopping-bad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FEDD636141DC70300D59BFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FEDD637141DC70300D59BFC /* UIKit.framework */,
+				6FEDD639141DC70300D59BFC /* Foundation.framework */,
+				6FEDD63B141DC70300D59BFC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FEDD652141DC72A00D59BFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6FEDD653141DC73400D59BFC /* Other sources */ = {
+			isa = PBXGroup;
+			children = (
+				6FEDD65C141DC7EF00D59BFC /* iShopping-bad-Info.plist */,
+				6FEDD65D141DC7EF00D59BFC /* iShopping-bad-Prefix.pch */,
+				6FEDD65E141DC7EF00D59BFC /* main.m */,
+			);
+			name = "Other sources";
+			sourceTree = "<group>";
+		};
+		6FEDD655141DC7E400D59BFC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6FEDD656141DC7E400D59BFC /* AppDelegate */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6FEDD656141DC7E400D59BFC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6FEDD657141DC7E400D59BFC /* iShopping_badAppDelegate.h */,
+				6FEDD658141DC7E400D59BFC /* iShopping_badAppDelegate.m */,
+				6FEDD659141DC7E400D59BFC /* MainWindow.xib */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FEDD632141DC70300D59BFC /* iShopping-bad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FEDD64E141DC70300D59BFC /* Build configuration list for PBXNativeTarget "iShopping-bad" */;
+			buildPhases = (
+				6FEDD62F141DC70300D59BFC /* Sources */,
+				6FEDD630141DC70300D59BFC /* Frameworks */,
+				6FEDD631141DC70300D59BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iShopping-bad";
+			productName = "iShopping-bad";
+			productReference = 6FEDD633141DC70300D59BFC /* iShopping-bad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FEDD62A141DC70200D59BFC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6FEDD62D141DC70200D59BFC /* Build configuration list for PBXProject "iShopping-bad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6FEDD628141DC70200D59BFC;
+			productRefGroup = 6FEDD634141DC70300D59BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FEDD632141DC70300D59BFC /* iShopping-bad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FEDD631141DC70300D59BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEDD65B141DC7E400D59BFC /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FEDD62F141DC70300D59BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEDD65A141DC7E400D59BFC /* iShopping_badAppDelegate.m in Sources */,
+				6FEDD660141DC7EF00D59BFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6FEDD64C141DC70300D59BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6FEDD64D141DC70300D59BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FEDD64F141DC70300D59BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iShopping-bad-Prefix.pch";
+				INFOPLIST_FILE = "iShopping-bad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6FEDD650141DC70300D59BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iShopping-bad-Prefix.pch";
+				INFOPLIST_FILE = "iShopping-bad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FEDD62D141DC70200D59BFC /* Build configuration list for PBXProject "iShopping-bad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FEDD64C141DC70300D59BFC /* Debug */,
+				6FEDD64D141DC70300D59BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FEDD64E141DC70300D59BFC /* Build configuration list for PBXNativeTarget "iShopping-bad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FEDD64F141DC70300D59BFC /* Debug */,
+				6FEDD650141DC70300D59BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FEDD62A141DC70200D59BFC /* Project object */;
+}
