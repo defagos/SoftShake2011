@@ -1,0 +1,1 @@
+Examples for the talk given at the SoftShake 2011 event in Geneva (October 2011, www.soft-shake.ch)
