@@ -8,6 +8,8 @@
 
 #import "iShopping_badAppDelegate.h"
 
+#import "ShoppingViewController.h"
+
 @implementation iShopping_badAppDelegate
 
 #pragma mark Object creation and destruction
@@ -28,6 +30,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [[[ShoppingViewController alloc] init] autorelease];
     
     return YES;
 }
