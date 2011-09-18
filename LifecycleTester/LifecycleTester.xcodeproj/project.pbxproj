@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F86A3BB1426649D005EC589 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F86A3BA1426649D005EC589 /* UIKit.framework */; };
+		6F86A3BD1426649D005EC589 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F86A3BC1426649D005EC589 /* Foundation.framework */; };
+		6F86A3BF1426649D005EC589 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F86A3BE1426649D005EC589 /* CoreGraphics.framework */; };
+		6F86A3E81426657D005EC589 /* LifecycleTesterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F86A3E31426657D005EC589 /* LifecycleTesterAppDelegate.m */; };
+		6F86A3E91426657D005EC589 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A3E41426657D005EC589 /* MainWindow.xib */; };
+		6F86A3EE14266593005EC589 /* LifecycleTester-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A3EB14266593005EC589 /* LifecycleTester-Info.plist */; };
+		6F86A3EF14266593005EC589 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F86A3ED14266593005EC589 /* main.m */; };
+		6F86A3F21426660D005EC589 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F86A3F11426660D005EC589 /* ModalViewController.m */; };
+		6F86A3F41426661A005EC589 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A3F31426661A005EC589 /* ModalViewController.xib */; };
+		6F86A3F81426665A005EC589 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F86A3F71426665A005EC589 /* ContentViewController.m */; };
+		6F86A3FA14266667005EC589 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A3F914266667005EC589 /* ContentViewController.xib */; };
+		6F86A3FD14266681005EC589 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F86A3FC14266681005EC589 /* RootViewController.m */; };
+		6F86A3FF14266691005EC589 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A3FE14266691005EC589 /* RootViewController.xib */; };
+		6F86A415142666C2005EC589 /* CoconutKit_bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F86A402142666C2005EC589 /* CoconutKit_bootstrap.m */; };
+		6F86A416142666C2005EC589 /* CoconutKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F86A403142666C2005EC589 /* CoconutKit.framework */; };
+		6F86A417142666C2005EC589 /* CoconutKit_ButtonBarArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A405142666C2005EC589 /* CoconutKit_ButtonBarArrowLeft.png */; };
+		6F86A418142666C2005EC589 /* CoconutKit_ButtonBarArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A406142666C2005EC589 /* CoconutKit_ButtonBarArrowLeft@2x.png */; };
+		6F86A419142666C2005EC589 /* CoconutKit_ButtonBarArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A407142666C2005EC589 /* CoconutKit_ButtonBarArrowRight.png */; };
+		6F86A41A142666C2005EC589 /* CoconutKit_ButtonBarArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A408142666C2005EC589 /* CoconutKit_ButtonBarArrowRight@2x.png */; };
+		6F86A41B142666C2005EC589 /* CoconutKit_ButtonBarRefresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A409142666C2005EC589 /* CoconutKit_ButtonBarRefresh.png */; };
+		6F86A41C142666C2005EC589 /* CoconutKit_ButtonBarRefresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A40A142666C2005EC589 /* CoconutKit_ButtonBarRefresh@2x.png */; };
+		6F86A41D142666C2005EC589 /* CoconutKit_cursor_default_pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A40B142666C2005EC589 /* CoconutKit_cursor_default_pointer.png */; };
+		6F86A41E142666C2005EC589 /* CoconutKit_HLSWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A40C142666C2005EC589 /* CoconutKit_HLSWebViewController.xib */; };
+		6F86A41F142666C2005EC589 /* CoconutKit_Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A40D142666C2005EC589 /* CoconutKit_Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F86A3B61426649D005EC589 /* LifecycleTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifecycleTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F86A3BA1426649D005EC589 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F86A3BC1426649D005EC589 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F86A3BE1426649D005EC589 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F86A3E21426657D005EC589 /* LifecycleTesterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifecycleTesterAppDelegate.h; sourceTree = "<group>"; };
+		6F86A3E31426657D005EC589 /* LifecycleTesterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifecycleTesterAppDelegate.m; sourceTree = "<group>"; };
+		6F86A3E41426657D005EC589 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		6F86A3EB14266593005EC589 /* LifecycleTester-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LifecycleTester-Info.plist"; sourceTree = "<group>"; };
+		6F86A3EC14266593005EC589 /* LifecycleTester-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LifecycleTester-Prefix.pch"; sourceTree = "<group>"; };
+		6F86A3ED14266593005EC589 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F86A3F01426660D005EC589 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		6F86A3F11426660D005EC589 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		6F86A3F31426661A005EC589 /* ModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
+		6F86A3F61426665A005EC589 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		6F86A3F71426665A005EC589 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		6F86A3F914266667005EC589 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
+		6F86A3FB14266681005EC589 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		6F86A3FC14266681005EC589 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		6F86A3FE14266691005EC589 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		6F86A402142666C2005EC589 /* CoconutKit_bootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoconutKit_bootstrap.m; sourceTree = "<group>"; };
+		6F86A403142666C2005EC589 /* CoconutKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoconutKit.framework; sourceTree = "<group>"; };
+		6F86A405142666C2005EC589 /* CoconutKit_ButtonBarArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoconutKit_ButtonBarArrowLeft.png; sourceTree = "<group>"; };
+		6F86A406142666C2005EC589 /* CoconutKit_ButtonBarArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CoconutKit_ButtonBarArrowLeft@2x.png"; sourceTree = "<group>"; };
+		6F86A407142666C2005EC589 /* CoconutKit_ButtonBarArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoconutKit_ButtonBarArrowRight.png; sourceTree = "<group>"; };
+		6F86A408142666C2005EC589 /* CoconutKit_ButtonBarArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CoconutKit_ButtonBarArrowRight@2x.png"; sourceTree = "<group>"; };
+		6F86A409142666C2005EC589 /* CoconutKit_ButtonBarRefresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoconutKit_ButtonBarRefresh.png; sourceTree = "<group>"; };
+		6F86A40A142666C2005EC589 /* CoconutKit_ButtonBarRefresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CoconutKit_ButtonBarRefresh@2x.png"; sourceTree = "<group>"; };
+		6F86A40B142666C2005EC589 /* CoconutKit_cursor_default_pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoconutKit_cursor_default_pointer.png; sourceTree = "<group>"; };
+		6F86A40C142666C2005EC589 /* CoconutKit_HLSWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoconutKit_HLSWebViewController.xib; sourceTree = "<group>"; };
+		6F86A40F142666C2005EC589 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CoconutKit_Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F86A3B31426649D005EC589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F86A3BB1426649D005EC589 /* UIKit.framework in Frameworks */,
+				6F86A3BD1426649D005EC589 /* Foundation.framework in Frameworks */,
+				6F86A3BF1426649D005EC589 /* CoreGraphics.framework in Frameworks */,
+				6F86A416142666C2005EC589 /* CoconutKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F86A3AB1426649D005EC589 = {
+			isa = PBXGroup;
+			children = (
+				6F86A3E01426657D005EC589 /* Sources */,
+				6F86A3EA14266581005EC589 /* Other sources */,
+				6F86A3B91426649D005EC589 /* Frameworks */,
+				6F86A3B71426649D005EC589 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F86A3B71426649D005EC589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F86A3B61426649D005EC589 /* LifecycleTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F86A3B91426649D005EC589 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F86A400142666C2005EC589 /* CoconutKit-1.0.1-Release.staticframework */,
+				6F86A3BA1426649D005EC589 /* UIKit.framework */,
+				6F86A3BC1426649D005EC589 /* Foundation.framework */,
+				6F86A3BE1426649D005EC589 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F86A3E01426657D005EC589 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6F86A3E11426657D005EC589 /* AppDelegate */,
+				6F86A3F514266647005EC589 /* ContentViewController */,
+				6F86A3E51426657D005EC589 /* ModalViewController */,
+				6F86A3E71426657D005EC589 /* RootViewController */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6F86A3E11426657D005EC589 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6F86A3E21426657D005EC589 /* LifecycleTesterAppDelegate.h */,
+				6F86A3E31426657D005EC589 /* LifecycleTesterAppDelegate.m */,
+				6F86A3E41426657D005EC589 /* MainWindow.xib */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6F86A3E51426657D005EC589 /* ModalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6F86A3F01426660D005EC589 /* ModalViewController.h */,
+				6F86A3F11426660D005EC589 /* ModalViewController.m */,
+				6F86A3F31426661A005EC589 /* ModalViewController.xib */,
+			);
+			path = ModalViewController;
+			sourceTree = "<group>";
+		};
+		6F86A3E71426657D005EC589 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6F86A3FB14266681005EC589 /* RootViewController.h */,
+				6F86A3FC14266681005EC589 /* RootViewController.m */,
+				6F86A3FE14266691005EC589 /* RootViewController.xib */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		6F86A3EA14266581005EC589 /* Other sources */ = {
+			isa = PBXGroup;
+			children = (
+				6F86A3EB14266593005EC589 /* LifecycleTester-Info.plist */,
+				6F86A3EC14266593005EC589 /* LifecycleTester-Prefix.pch */,
+				6F86A3ED14266593005EC589 /* main.m */,
+			);
+			name = "Other sources";
+			sourceTree = "<group>";
+		};
+		6F86A3F514266647005EC589 /* ContentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6F86A3F61426665A005EC589 /* ContentViewController.h */,
+				6F86A3F71426665A005EC589 /* ContentViewController.m */,
+				6F86A3F914266667005EC589 /* ContentViewController.xib */,
+			);
+			path = ContentViewController;
+			sourceTree = "<group>";
+		};
+		6F86A400142666C2005EC589 /* CoconutKit-1.0.1-Release.staticframework */ = {
+			isa = PBXGroup;
+			children = (
+				6F86A401142666C2005EC589 /* Bootstrap */,
+				6F86A403142666C2005EC589 /* CoconutKit.framework */,
+				6F86A404142666C2005EC589 /* Resources */,
+			);
+			name = "CoconutKit-1.0.1-Release.staticframework";
+			path = "/LeStudioSDK/Binaries/CoconutKit/CoconutKit-1.0.1-Release.staticframework";
+			sourceTree = "<absolute>";
+		};
+		6F86A401142666C2005EC589 /* Bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				6F86A402142666C2005EC589 /* CoconutKit_bootstrap.m */,
+			);
+			path = Bootstrap;
+			sourceTree = "<group>";
+		};
+		6F86A404142666C2005EC589 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F86A405142666C2005EC589 /* CoconutKit_ButtonBarArrowLeft.png */,
+				6F86A406142666C2005EC589 /* CoconutKit_ButtonBarArrowLeft@2x.png */,
+				6F86A407142666C2005EC589 /* CoconutKit_ButtonBarArrowRight.png */,
+				6F86A408142666C2005EC589 /* CoconutKit_ButtonBarArrowRight@2x.png */,
+				6F86A409142666C2005EC589 /* CoconutKit_ButtonBarRefresh.png */,
+				6F86A40A142666C2005EC589 /* CoconutKit_ButtonBarRefresh@2x.png */,
+				6F86A40B142666C2005EC589 /* CoconutKit_cursor_default_pointer.png */,
+				6F86A40C142666C2005EC589 /* CoconutKit_HLSWebViewController.xib */,
+				6F86A40D142666C2005EC589 /* CoconutKit_Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F86A3B51426649D005EC589 /* LifecycleTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F86A3D11426649D005EC589 /* Build configuration list for PBXNativeTarget "LifecycleTester" */;
+			buildPhases = (
+				6F86A3B21426649D005EC589 /* Sources */,
+				6F86A3B31426649D005EC589 /* Frameworks */,
+				6F86A3B41426649D005EC589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifecycleTester;
+			productName = LifecycleTester;
+			productReference = 6F86A3B61426649D005EC589 /* LifecycleTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F86A3AD1426649D005EC589 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6F86A3B01426649D005EC589 /* Build configuration list for PBXProject "LifecycleTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				es,
+				fr,
+				it,
+				ja,
+				ko,
+			);
+			mainGroup = 6F86A3AB1426649D005EC589;
+			productRefGroup = 6F86A3B71426649D005EC589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F86A3B51426649D005EC589 /* LifecycleTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F86A3B41426649D005EC589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F86A3E91426657D005EC589 /* MainWindow.xib in Resources */,
+				6F86A3EE14266593005EC589 /* LifecycleTester-Info.plist in Resources */,
+				6F86A3F41426661A005EC589 /* ModalViewController.xib in Resources */,
+				6F86A3FA14266667005EC589 /* ContentViewController.xib in Resources */,
+				6F86A3FF14266691005EC589 /* RootViewController.xib in Resources */,
+				6F86A417142666C2005EC589 /* CoconutKit_ButtonBarArrowLeft.png in Resources */,
+				6F86A418142666C2005EC589 /* CoconutKit_ButtonBarArrowLeft@2x.png in Resources */,
+				6F86A419142666C2005EC589 /* CoconutKit_ButtonBarArrowRight.png in Resources */,
+				6F86A41A142666C2005EC589 /* CoconutKit_ButtonBarArrowRight@2x.png in Resources */,
+				6F86A41B142666C2005EC589 /* CoconutKit_ButtonBarRefresh.png in Resources */,
+				6F86A41C142666C2005EC589 /* CoconutKit_ButtonBarRefresh@2x.png in Resources */,
+				6F86A41D142666C2005EC589 /* CoconutKit_cursor_default_pointer.png in Resources */,
+				6F86A41E142666C2005EC589 /* CoconutKit_HLSWebViewController.xib in Resources */,
+				6F86A41F142666C2005EC589 /* CoconutKit_Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F86A3B21426649D005EC589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F86A3E81426657D005EC589 /* LifecycleTesterAppDelegate.m in Sources */,
+				6F86A3EF14266593005EC589 /* main.m in Sources */,
+				6F86A3F21426660D005EC589 /* ModalViewController.m in Sources */,
+				6F86A3F81426665A005EC589 /* ContentViewController.m in Sources */,
+				6F86A3FD14266681005EC589 /* RootViewController.m in Sources */,
+				6F86A415142666C2005EC589 /* CoconutKit_bootstrap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F86A40D142666C2005EC589 /* CoconutKit_Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F86A40F142666C2005EC589 /* en */,
+			);
+			name = CoconutKit_Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F86A3CF1426649D005EC589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6F86A3D01426649D005EC589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F86A3D21426649D005EC589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/LeStudioSDK/Binaries/CoconutKit/CoconutKit-1.0.1-$(CONFIGURATION).staticframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifecycleTester-Prefix.pch";
+				INFOPLIST_FILE = "LifecycleTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F86A3D31426649D005EC589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/LeStudioSDK/Binaries/CoconutKit/CoconutKit-1.0.1-$(CONFIGURATION).staticframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifecycleTester-Prefix.pch";
+				INFOPLIST_FILE = "LifecycleTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F86A3B01426649D005EC589 /* Build configuration list for PBXProject "LifecycleTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F86A3CF1426649D005EC589 /* Debug */,
+				6F86A3D01426649D005EC589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F86A3D11426649D005EC589 /* Build configuration list for PBXNativeTarget "LifecycleTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F86A3D21426649D005EC589 /* Debug */,
+				6F86A3D31426649D005EC589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F86A3AD1426649D005EC589 /* Project object */;
+}

@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'LifecycleTester' target in the 'LifecycleTester' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoconutKit/CoconutKit.h>
+#endif

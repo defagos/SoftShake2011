@@ -173,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				6FEDD655141DC7E400D59BFC /* Sources */,
-				6FEDD652141DC72A00D59BFC /* Resources */,
 				6FEDD653141DC73400D59BFC /* Other sources */,
 				6FEDD636141DC70300D59BFC /* Frameworks */,
 				6FEDD634141DC70300D59BFC /* Products */,
@@ -197,13 +196,6 @@
 				6FEDD63B141DC70300D59BFC /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6FEDD652141DC72A00D59BFC /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		6FEDD653141DC73400D59BFC /* Other sources */ = {

@@ -1,0 +1,7 @@
+.DS_Store
+build/
+LifecycleTester.xcodeproj/xcuserdata/
+LifecycleTester.xcodeproj/*.pbxuser
+LifecycleTester.xcodeproj/*.mode1v3
+LifecycleTester.xcodeproj/*.perspectivev3
+

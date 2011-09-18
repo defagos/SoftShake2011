@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:LifecycleTester/LifecycleTester.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:iShopping-bad/iShopping-bad.xcodeproj">
    </FileRef>
    <FileRef
