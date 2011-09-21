@@ -12,7 +12,6 @@
 		6F86A3BF1426649D005EC589 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F86A3BE1426649D005EC589 /* CoreGraphics.framework */; };
 		6F86A3E81426657D005EC589 /* LifecycleTesterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F86A3E31426657D005EC589 /* LifecycleTesterAppDelegate.m */; };
 		6F86A3E91426657D005EC589 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A3E41426657D005EC589 /* MainWindow.xib */; };
-		6F86A3EE14266593005EC589 /* LifecycleTester-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A3EB14266593005EC589 /* LifecycleTester-Info.plist */; };
 		6F86A3EF14266593005EC589 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F86A3ED14266593005EC589 /* main.m */; };
 		6F86A3F21426660D005EC589 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F86A3F11426660D005EC589 /* ModalViewController.m */; };
 		6F86A3F41426661A005EC589 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A3F31426661A005EC589 /* ModalViewController.xib */; };
@@ -260,7 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F86A3E91426657D005EC589 /* MainWindow.xib in Resources */,
-				6F86A3EE14266593005EC589 /* LifecycleTester-Info.plist in Resources */,
 				6F86A3F41426661A005EC589 /* ModalViewController.xib in Resources */,
 				6F86A3FA14266667005EC589 /* ContentViewController.xib in Resources */,
 				6F86A3FF14266691005EC589 /* RootViewController.xib in Resources */,
@@ -362,6 +360,7 @@
 				GCC_PREFIX_HEADER = "LifecycleTester-Prefix.pch";
 				INFOPLIST_FILE = "LifecycleTester-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -377,6 +376,7 @@
 				GCC_PREFIX_HEADER = "LifecycleTester-Prefix.pch";
 				INFOPLIST_FILE = "LifecycleTester-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -400,6 +400,7 @@
 				6F86A3D31426649D005EC589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
