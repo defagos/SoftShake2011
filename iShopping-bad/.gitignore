@@ -1,0 +1,7 @@
+.DS_Store
+build/
+iShopping-bad.xcodeproj/xcuserdata/
+iShopping-bad.xcodeproj/*.pbxuser
+iShopping-bad.xcodeproj/*.mode1v3
+iShopping-bad.xcodeproj/*.perspectivev3
+

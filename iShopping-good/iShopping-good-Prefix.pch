@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'iShopping-good' target in the 'iShopping-good' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoconutKit/CoconutKit.h>
+#endif
